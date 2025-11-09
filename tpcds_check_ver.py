@@ -40,7 +40,7 @@ verno   = 0
 loopcnt = 10000000
 loops   = 0
 FMT = '%H:%M:%S.%f'
-md_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG4uYXBwc0BvdXRsb29rLmNvbSIsInNlc3Npb24iOiJqb2huLmFwcHMub3V0bG9vay5jb20iLCJwYXQiOiJsOHdTa2pwYnZ4dDI3WGpVOUJMODdLb3hMVGNNM3laUVFtamRqU3pING1VIiwidXNlcklkIjoiZmY0MDNkNGMtZDU1Yy00NTE0LThmNWYtMDM0OGJjYmU5NTJhIiwiaXNzIjoibWRfcGF0IiwicmVhZE9ubHkiOnRydWUsInRva2VuVHlwZSI6InJlYWRfc2NhbGluZyIsImlhdCI6MTczNTQ3NTg4M30.r_MPT7lhifHHtCsrYQYPlW0iaF8SpNsvFIbidO7zpaQ"
+md_token = "xxxxxxxxxxxxxxxxx"
 db_name = 'md:verdb'
 if len(sys.argv) < 2:
     verr = duckdb.connect(db_name)
